@@ -72,13 +72,17 @@ header{display:flex;align-items:center;padding:16px 40px;position:sticky;top:0;b
   .hero-section{height:100svh;}
   .hero-overlay{padding:20px 16px 32px;}
   .hero-text h1{font-size:42px;}
-  .hero-right{display:none;}
+  .hero-right{position:absolute;bottom:20px;right:16px;left:16px;text-align:left;max-width:100%;}
+  .hero-right p{font-size:12px;margin-bottom:10px;}
+  .hero-bottom{flex-direction:column;align-items:flex-start;gap:16px;}
+  .enter-btn{font-size:10px;}
   .hero-top span{font-size:9px;}
   .collection-header{flex-direction:column;align-items:flex-start;gap:8px;padding:48px 16px 24px;}
   .collection-header h2{font-size:36px;}
   .collection-header .desc{text-align:left;font-size:12px;}
   .staggered-grid{grid-template-columns:1fr 1fr;padding:0 16px 40px;gap:12px;}
-  .grid-col:nth-child(2){padding-top:32px;}
+  .grid-col{display:contents;}
+  .grid-col:nth-child(2){padding-top:0;}
   .grid-col:nth-child(3){padding-top:0;}
   .card-name{font-size:16px;}
   .card-cat{font-size:9px;}
